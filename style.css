@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+.container50{
+    align-items: center;
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    
+}
+.container30{
+    /* background-color: blue; */
+    width: 10%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: url("images/kages.jpg");
+    background-size: cover;
+    height: 600px;
+}
+nav{
+    align-items: center;
+    background-color: #BF3604;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+nav a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+}
+/* nav a img{
+    display: none;
+}
+nav a img:hover{
+    display: block; */
+}
+section{
+    background-color: rgb(217, 241, 247);
+    display: flex;
+    justify-content:center;
+
+}
+.space30{
+    width: 20%;
+    padding: 0% 5%;
+
+}
+.space50{
+    width: 50%;
+}
+p{
+    font-family: sans-serif;
+    text-align: justify;
+}
+div ul li:hover{
+    list-style-image: url("images/ninja.png");
+}
+ul li:nth-child(even){
+    color:#BF3604;
+}
